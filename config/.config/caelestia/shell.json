@@ -1,0 +1,22 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": false
+        }
+    },
+    "bar": {
+        "scrollActions": {
+            "brightness": false,
+            "volume": false
+        },
+        "status": {
+            "showAudio": false,
+            "showKbLayout": false,
+            "showLockStatus": false,
+            "showMicrophone": false
+        }
+    },
+    "dashboard": {
+        "resourceUpdateInterval": 2000
+    }
+}
