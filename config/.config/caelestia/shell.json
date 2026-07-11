@@ -10,6 +10,22 @@
             "enabled": false
         }
     },
+    "audio": {
+        "sounds": {
+            "disabledNotifApps": [
+                "zen"
+            ]
+        }
+    },
+    "background": {
+        "desktopClock": {
+            "enabled": false
+        },
+        "visualiser": {
+            "autoHide": true,
+            "enabled": false
+        }
+    },
     "bar": {
         "activeWindow": {
             "compact": false,
@@ -133,11 +149,38 @@
         }
     },
     "dashboard": {
+        "mediaUpdateInterval": 1000,
+        "performance": {
+            "showBattery": false
+        },
+        "profilePicShape": 19,
         "resourceUpdateInterval": 3000,
-        "showTerminal": false
+        "showTerminal": false,
+        "syncMediaShapesToBeat": true
+    },
+    "launcher": {
+        "favouriteApps": [
+            "firefox"
+        ],
+        "hiddenApps": [
+            "install4j_5qzhps-run_vp_integration_ec",
+            "install4j_5qzhps-run_vp_integration_nb",
+            "java-25-openjdk-jconsole",
+            "java-latest-openjdk-jconsole",
+            "install4j_5qzhps-Visual_Paradigm_Product_Selector",
+            "install4j_5qzhps-Visual_Paradigm_Update",
+            "install4j_5qzhps-run_vp_integration_ij",
+            "Oracle-datamodeler"
+        ]
+    },
+    "lock": {
+        "profilePicShape": 0
     },
     "services": {
         "visualiserBars": 50
+    },
+    "shimeji": {
+        "enabled": false
     },
     "sidebar": {
         "enabled": true
